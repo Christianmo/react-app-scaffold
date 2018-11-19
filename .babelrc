@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "react-app"
+  ],
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "@screens": "./src/app/screens",
+        "@components": "./src/app/components",
+        "@constants": "./src/constants",
+        "@services": "./src/services",
+        "@redux": "./src/redux",
+        "@config": "./src/config"
+      }
+    }]
+  ]
+}

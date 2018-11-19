@@ -1,0 +1,14 @@
+{
+  "extends": ["react-app", "airbnb"],
+  "parser": "babel-eslint",
+  "rules": {
+    "strict": 0,
+    "import/no-unresolved": "off",
+    "react/jsx-filename-extension": "off",
+    "jsx-a11y/href-no-hash": "off",
+    "react/destructuring-assignment": "warn",
+    "react/prop-types": "warn",
+    "no-unused-vars": "warn",
+    "react/no-unused-prop-types": "warn"
+  }
+}
