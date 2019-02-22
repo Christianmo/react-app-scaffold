@@ -8,7 +8,7 @@ const postActions = {
   getPosts: (success, failure) => ({
     type: GET_POSTS,
     target: getPostsTarget,
-    service: postServices.getPosts,
+    service: postServices.getPosts(),
     response: resp => resp.data,
     success,
     failure,

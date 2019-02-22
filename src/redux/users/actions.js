@@ -8,7 +8,7 @@ const userActions = {
   getUsers: (success, failure) => ({
     type: GET_USERS,
     target: usersTarget,
-    service: userServices.getUsers,
+    service: userServices.getUsers(),
     response: resp => resp.data,
     success,
     failure,

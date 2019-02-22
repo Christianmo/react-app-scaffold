@@ -7,6 +7,7 @@ import ROUTES from '@constants/routes';
 function App() {
   return (
     <Switch>
+      <Route path={ROUTES.ROOT} component={Posts} exact />
       <Route path={ROUTES.USERS} component={Users} />
       <Route path={ROUTES.POSTS} component={Posts} />
     </Switch>
