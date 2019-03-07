@@ -10,8 +10,12 @@
         "@components": "./src/app/components",
         "@constants": "./src/constants",
         "@services": "./src/services",
+        "@schemas": "./src/schemas",
         "@redux": "./src/redux",
-        "@config": "./src/config"
+        "@config": "./src/config",
+        "@utils": "./src/utils",
+        "@proptypes": "./src/proptypes",
+        "@assets": "./src/assets"      
       }
     }]
   ]

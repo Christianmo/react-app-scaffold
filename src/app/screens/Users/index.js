@@ -35,9 +35,9 @@ class Users extends Component {
 
 function mapStateToProps(store) {
   return {
-    users: store.users.usersData,
-    usersError: store.users.usersError,
-    usersLoading: store.users.usersLoading,
+    users: store.usersReducer.usersData,
+    usersError: store.usersReducer.usersError,
+    usersLoading: store.usersReducer.usersLoading,
   };
 }
 

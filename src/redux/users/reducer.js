@@ -1,6 +1,10 @@
 import { GET_USERS } from '@constants/actionNames';
 
-const initialState = [];
+const initialState = {
+  users: [],
+  usersLoading: false,
+  usersError: false,
+};
 
 const userReducer = (state = initialState, action) => {
   switch (action.type) {

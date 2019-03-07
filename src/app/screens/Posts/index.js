@@ -36,12 +36,12 @@ class Posts extends Component {
 
 function mapStateToProps(store) {
   return {
-    posts: store.posts.postsData,
-    postsError: store.posts.postsError,
-    postsLoading: store.posts.postsLoading,
-    singlePost: store.posts.postData,
-    singlePostError: store.posts.postError,
-    singlePostLoading: store.posts.postLoading,
+    posts: store.postsReducer.postsData,
+    postsError: store.postsReducer.postsError,
+    postsLoading: store.postsReducer.postsLoading,
+    singlePost: store.postsReducer.postData,
+    singlePostError: store.postsReducer.postError,
+    singlePostLoading: store.postsReducer.postLoading,
   };
 }
 

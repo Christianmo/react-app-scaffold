@@ -1,6 +1,10 @@
 import { GET_POSTS, ADD_POST } from '@constants/actionNames';
 
-const initialState = {};
+const initialState = {
+  postsData: [],
+  postsLoading: false,
+  postsError: false,
+};
 
 const postReducer = (state = initialState, { type, payload }) => {
   switch (type) {
